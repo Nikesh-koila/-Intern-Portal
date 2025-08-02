@@ -12,14 +12,15 @@ app.get("/intern", (req, res) => {
   });
 });
 
-app.get("/leadboard",(req,res)=>{
-    res.json([
-          { name: "Sarah Chen", donations: 5200 },
-          { name: "Mike Davis", donations: 4800 },
-          { name: "Alex Johnson", donations: 3400 },
-          { name: "Emma Wilson", donations: 2900 },
-          { name: "John Smith", donations: 2100 },
-        ])
-})
+app.get("/leadboard", (req, res) => {
+  res.json([
+    { name: "Sarah Chen", donations: 5200 },
+    { name: "Mike Davis", donations: 4800 },
+    { name: "Alex Johnson", donations: 3400 },
+    { name: "Emma Wilson", donations: 2900 },
+    { name: "John Smith", donations: 2100 },
+  ]);
+});
 
-app.listen(8000, () => console.log("Server running on port 8000"));
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

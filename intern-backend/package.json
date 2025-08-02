@@ -1,15 +1,15 @@
 {
   "name": "intern-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "commonjs",
+  "description": "Backend for Intern Portal (Express.js)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
