@@ -11,7 +11,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("http://localhost:8000/intern").then((res) => {
+    axios.get("https://intern-backend-bnbu.onrender.com/intern").then((res) => {
       setIntern(res.data);
       setLoading(false);
     });

@@ -11,7 +11,7 @@ export default function Leaderboard() {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("http://localhost:8000/leadboard").then((res) => {
+    axios.get("https://intern-backend-bnbu.onrender.com/leadboard").then((res) => {
       setData(res.data);
       setLoading(false);
     });
