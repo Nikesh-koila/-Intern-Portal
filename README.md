@@ -5,6 +5,12 @@ This project demonstrates clean full stack architecture, RESTful API integration
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Click here to view the live project](https://intern-portal-lac.vercel.app/)
+
+---
+
 ## 🚀 Features
 
 ### 🔐 Frontend (Next.js)
